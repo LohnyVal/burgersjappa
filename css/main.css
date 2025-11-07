@@ -1,0 +1,211 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.hero{
+  min-height: 1050px;
+  background-size: cover;
+  background-image: url("../img/bbq.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.navbar ul {
+  margin: 0;
+  background-color: rgb(63, 61, 61);
+  border-bottom: 1px solid orange;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+  padding: 40px 0;
+  font-size: 1.5rem ;
+}
+
+.navbar ul li {
+  min-width: 400px;
+}
+
+
+
+.navbar a {
+  font-size: 25px;
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+
+.navbar a:active {
+  background-color: rgba(205, 151, 50, 0.918);
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content:center;
+  
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.36);
+  width: 70%;
+  height: 50vh;
+  font-size: 55px;
+  border: 1px solid orange;
+  border-radius: 16px;
+  padding: 80px;
+}
+
+.buttoninfo{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+
+}
+
+.buttons{
+  display: flex;
+  padding: 30px 50px;
+  font-size: 22px;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: orange;
+
+
+}
+
+.buttons:hover{
+  background-color: black;
+  color: white;
+
+}
+
+.kort-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.kortene {
+  display: flex;
+  background-color: rgb(63, 61, 61);
+  width: 400px;
+  height: 580px;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 16px;
+  border: 2px solid orange;
+  margin-bottom: 20px;
+}
+
+.navnburger{
+  font-size: 40px;
+  color: white;
+}
+
+
+.kurv{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.kroner, .hapå{
+  font-size: 25px;
+  color: white;
+}
+
+.handle{
+  height: 60px;
+  width: 210px;
+  border-top-left-radius: 16px;
+  color: black;
+  background-color: orange;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.handle:hover{
+  background-color: inherit;
+  color: orange;
+  border: 2px solid orange;
+}
+
+h1 {
+  margin-left: 20px;
+  color: white;
+  font-size: 80px
+}
+
+
+.buttoninfolinks{
+  text-decoration: none;
+}
+
+.kortbilde {
+  display: flex;
+  width: 100%;
+  max-height: 270px;
+}
+
+h2 {
+  font-size: 63px;
+  color: white;
+  margin-top: 0px;
+}
+
+
+footer{
+  display: flex;
+  padding: 60px;
+  font-size: 24px;
+  background-color: rgb(63, 61, 61);
+  border-top: 2px solid orange;
+  justify-content: center;
+  gap: 20px;
+  color: whitesmoke;
+  
+  
+}
+
+.meny{
+  background-color: rgb(63, 61, 61);
+  text-align: center;
+}
+
+
+
+.leftlinks{
+  flex: 2;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
